@@ -1,0 +1,152 @@
+a{
+    text-decoration: none;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+
+.section-logo {
+    height: 140px;
+    top: 50px;
+    left: 200px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.first span {
+    font-family: Cyntho Next;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+}
+
+.first p {
+    font-family: Cyntho Next;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 32px;
+    width: max-content;
+}
+
+.first input {
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.first input::placeholder {
+    font-family: Cyntho Next;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second button {
+    width: 350px;
+    height: 50pxpx;
+    top: 896.75px;
+    left: 200px;
+    padding: 13px 50px 13px 50px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid #FFBB15;
+    opacity: 0px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.second p {
+    padding-top: 10px;
+    font-family: Cyntho Next;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 32px;
+    width: max-content;
+    padding-left: 70px;
+}
+
+.signup-p{
+    padding-top: 10px;
+    font-family: Cyntho Next;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 32px;
+    width: max-content;
+    padding-left: 55px !important;
+}
+.second span {
+    font-family: Cyntho Next;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #EC362B;
+}
+
+@media (max-width: 768px) {
+    .parent {
+        gap: 30px;
+    }
+
+    .section-image {
+        width: 350px;
+        padding-top: 90px;
+    }
+}
+
+.add-image {
+    margin-top: 8px;
+    width: 350px;
+    /* height: 50px; */
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.add-image p {
+    font-family: Cyntho Next;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: gray;
+}
+
+.add-image .attach {
+    width: 185px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .add-image .attach img {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+} */
+
+@media (max-width: 768px) {
+    .signup-p{
+        padding-left: 38px !important;
+    }
+    .add-image .attach {
+        width: 150px;
+        height: 80px;
+    }
+    .add-image .attach img {
+        width: 50px;
+    }
+    .first input,
+    .add-image,
+    .second button{
+        width: 300px;
+    }
+}
